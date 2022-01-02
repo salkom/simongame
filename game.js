@@ -10,8 +10,8 @@ var level = 0;
 var started = false;
 
 
-$(document).on("click keydown", function () {
-    
+$(document).click(function () {
+
     if (!started) {
 
         started = true;
